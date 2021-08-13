@@ -8,3 +8,4 @@ console.log(player);
 player.fat =false;
 player.lastName ="potato";
 console.log(player);
+sdsd
