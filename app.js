@@ -25,3 +25,4 @@ sayHello: function(otherPersonsName) {
 };
 console.log(player.name)
 player.sayHello("lynn");
+player.sayHello("Fynn");
