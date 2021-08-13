@@ -6,5 +6,5 @@ const player = {
 };
 console.log(player);
 player.fat =false;
-player.lastName ="potato chip";
+player.lastName ="potato";
 console.log(player);
