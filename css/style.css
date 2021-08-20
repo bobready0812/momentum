@@ -4,44 +4,107 @@
 }
 
 #quote {
- position: absolute;
- left: 530px;
- top: 920px;
- font-size: 30px;
+    position:absolute;
+    top:97%;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: FreeSans;
+    font-size : 15px;
+    color: white;
+    text-align: center;
 }
 
 #weather {
     position: absolute;
-    font-size: 25px;
-    left:1750px;
-    bottom: 950px;
+    text-align: right;
+    left: 94.3%;
+    top:  1%;
+    color: white;
 }
 
-#clock {
-    position: absolute;
-    font-size: 100px;
-    font-family:unset;
-    color: cornsilk;
-    left:750px;
-    top: 300px;
+
+    #clock{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-family : FreeSans;
+        font-size : 150px;
+        color: white;
+    
 }
 
 #login-form input {
-position: absolute;
-width: 400px;
-left:740px;
-top:550px;
-height: 30px;
+    position: absolute;
+    text-decoration: underline;
+    text-underline-position:under;
+    color : white;
+    left: 50%;
+    top: 57%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-family: FreeSans;
+    font-size : 30px;
 
 
 }
 
 #todo-form input {
+    text-decoration: underline;
+    text-underline-position:under;
+    color : white;
     position: absolute;
-    width: 400px;
-    left:740px;
-    top:650px;
-    height: 30px;
+    left: 50%;
+    top: 65%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-family: FreeSans;
+    font-size : 30px;
 
 }
 
+.bgImage {
+ /* The image used */
+ background-image: url("img_girl.jpg");
+
+ /* Full height */
+ height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+h1{  position: absolute;
+    font-size: 65px;
+    left:780px;
+ top:500px;
+}
+ 
+
+#todo-list {
+    position: absolute;
+    color: black;
+    left: 49%;
+    top: 70%;
+    font-size: 20px;
+    transform: translateX(-50%);
+    text-align: left;
+    font-family: FreeSans;
+}
+}
+
+#invisible {
+    clear : none;
+    border : 0px none;
+    float : none;
+    background-color : transparent;
+    outline : none;
+}
