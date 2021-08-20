@@ -55,7 +55,7 @@
 #todo-form input {
     text-decoration: underline;
     text-underline-position:under;
-    color : white;
+    color : black;
     position: absolute;
     left: 50%;
     top: 65%;
@@ -101,7 +101,7 @@ h1{  position: absolute;
 }
 }
 
-#invisible {
+#ab {
     clear : none;
     border : 0px none;
     float : none;
