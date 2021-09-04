@@ -28,33 +28,36 @@ img {
  
 #quote {
     position:absolute;
-    top:97%;
+    top:95%;
     left:50%;
     transform: translateX(-50%);
     font-family: FreeSans;
-    font-size : 15px;
+    font-size : 26px;
     color: white;
     text-align: center;
+   
+    
 }
 
 #weather {
     position: absolute;
     text-align: right;
-    left: 91%;
-    top:  1%;
+    left: 1770px;
+    top:  10px;
     color: white;
+    font-size: 20px;
 }
 
 
-    #clock{
-        position: absolute;
-        left: 50%;
-        top: 5%;
-        transform: translateX(-50%);
-        text-align: center;
-        font-family : FreeSans;
-        font-size : 150px;
-        color: white;
+#clock{
+    position: absolute;
+    left: 555px;
+    top:70px;
+       
+    text-align: center;
+    font-family : FreeSans;
+    font-size : 200px;
+    color:white;
     
 }
 
@@ -62,52 +65,58 @@ img {
     position: absolute;
     
     color : white;
-    left: 31%;
-    top: 53%;
+    left:580px;
+    top:560px;
     
-    width: 500px;
-    height: 40px;
+    width: 750px;
+    height: 80px;
     text-align: center;
     font-family: FreeSans;
-    font-size : 30px;
+    font-size : 50px;
     border: none;
-    background: transparent;
+    background-color: rgba(0, 0, 0, 0.2);;
+    border-radius: 25px;
 }
 
 #todo-form input {
     
     color:white;
     position: absolute;
-    left: 31%;
-    top: 65%;
+    left:580px;
+    top:670px;
     
-    width: 500px;
-    height: 40px;
+    width: 750px;
+    height: 80px;
     text-align: center;
     
-    font-size : 30px;
+    font-size : 50px;
     border: none;
-    background: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
 }
 
 h1{  position: absolute;
-    font-size: 65px;
-    left:480px;
- top:295px;
- color:white;
+    font-size: 80px;
+    left:750px;
+ top:460px;
+color: white;
+    
 }
  
 
 #todo-list {
     position: absolute;
     color: white;
-    left: 47%
-    top: 70%;
-    font-size: 20px;
+    left: 870px;
+    top:725px;
+    font-size: 35px;
     
     text-align: left;
     font-family: FreeSans;
 }
+}
+button {
+    font-size: 24px;
 }
 
 .to_do {
@@ -128,4 +137,14 @@ button{
     background: transparent;
     color:white;
     border: none;
+}
+
+#todo-list li button {
+    font-size:33px;
+}
+
+
+#todo-list li {
+    text-decoration: wavy;
+    font-weight: bold;
 }

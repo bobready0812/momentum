@@ -19,7 +19,7 @@ const li =document.createElement("li");
 li.id = newTodo.id;
 const span =document.createElement("span");
 const button = document.createElement("button");
-button.innerText ="X";
+button.innerText ="✘";
 li.appendChild(span);
 li.appendChild(button);
 button.addEventListener("click", deleteToDo);
